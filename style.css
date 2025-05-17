@@ -5,6 +5,7 @@
   background-size: cover;
   background-position: center;
   height: 600px;
+  width: 100%;
 
   display: flex;
   justify-content: center; 
@@ -27,6 +28,58 @@
      letter-spacing: 1px;
 }
 
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #CCCCCC;
+  height: 45px;
+  border-radius: 5px;
+  width: 297px;
+  margin: 20px auto;
+  margin-top: -20px;
+
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 12px 15px;
+  border-radius: 5px;
+}
+
+.navbar ul li a:hover{
+    background-color: gray;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+  .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F1F1F1;
+  height: 60px;
+  border-radius: 5px;
+  width: 100%;
+  margin: 20px auto;
+  margin-top: -20px;
+ 
+
+}
+  
+}
 
 
 
