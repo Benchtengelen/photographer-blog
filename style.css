@@ -1,0 +1,32 @@
+
+
+.photo{
+  background-image: url("img/photographer.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+
+}
+
+.photo .article{
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  padding:  5px 40px;
+}
+.photo .article h1{
+    letter-spacing: 4px;
+     font-size: 40px;
+}
+.photo .article p{
+    font-size: 25px;
+     letter-spacing: 1px;
+}
+
+
+
+
