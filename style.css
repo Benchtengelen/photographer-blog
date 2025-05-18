@@ -62,6 +62,77 @@
 }
 
 
+.container {
+  width: 65%;
+  margin: 30px auto;
+}
+.container img{
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+}
+
+
+.contact {
+  height: 582px;
+  width: 100%;
+  background-color: #F1F1F1;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact .article{
+  width: 95%;
+
+  margin: 20px auto;
+}
+.contact .p1{
+  text-align: center;
+  line-height: 100px;
+  font-size: 22px;
+
+}
+.contact .p2{
+  text-align: justify;
+  line-height: 23px;
+}
+
+.contact .article form label {
+    margin-bottom: 5px; 
+}
+
+
+.contact .article form input{
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 12px; 
+  
+ 
+}
+
+.contact .article form button{
+  width: 97%;
+  background-color: gray;
+  border: none;
+  padding: 12px 18px;
+  color: white;
+  font-size: 15px;
+    margin-bottom: 12px; 
+}
+.contact .article form button:hover{
+   background-color: #999696;
+   color: black;
+}
+
+.contact .article .p3{
+  margin-top: 40px;
+}
+
+.contact .article .p3 a{
+  color: black;
+}
+
+
 
 
 @media screen and (max-width:600px) {
@@ -69,7 +140,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F1F1F1;
+  background-color: white;
   height: 60px;
   border-radius: 5px;
   width: 100%;
@@ -78,6 +149,16 @@
  
 
 }
+  
+}
+
+@media screen  and (max-width:1000px){
+
+ .container {
+    width: 100%;
+    margin: 0; 
+    padding: 0 10px; 
+  }
   
 }
 
